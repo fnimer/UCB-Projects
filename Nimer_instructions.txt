@@ -98,7 +98,7 @@ Once you create the new repository on `github.com` you should see the following:
 We are interested in the commands for **push an existing repository from the command line**.  Making sure you are located in your `kraftwerk` folder on your desktop with the git repository, you can run the three commands:
 
 ```
-git remote add origin https://github.com/jfkoehler/kraftwerk.git
+git remote add origin https://github.com/fnimer/UCB-Projects/Amazon.git
 git branch -M main
 git push -u origin main
 ```
