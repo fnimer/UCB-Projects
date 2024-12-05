@@ -77,10 +77,10 @@ documento --> git add --> staging area (DEV) --> git commit --> repository (PROD
 
 - `git checkout master`
 
+
 ### Setting Up a `github.com` Account
 
 Outside of tracking our version history locally, we will use `.git` to move files back and forth from our local computer to a remote repository on the web.  Our remote repository will be located on the website `github.com`, so first thing we need to do is setup a new account if you don't have one already.  This will have to use the same username and email as your local git configuration, so make sure to check that first. 
-
 
 
 ### Creating a New Repository on `github.com`
@@ -89,16 +89,18 @@ Once you have your account setup, you can create a new repository by clicking th
 
 <img src = images/remotecreate.png />
 
+
 ### Connecting with your local repository
 
 Once you create the new repository on `github.com` you should see the following:
 
 ![](images/instructions.png)
 
-We are interested in the commands for **push an existing repository from the command line**.  Making sure you are located in your `kraftwerk` folder on your desktop with the git repository, you can run the three commands:
+We are interested in the commands for **push an existing repository from the command line**.  
+Making sure you are located in your `UCB-Project` folder (or the folder you are using for a project) on your desktop with the git repository, you can run the three commands:
 
 ```
-git remote add origin https://github.com/fnimer/UCB-Projects/Amazon.git
+git remote add origin https://github.com/fnimer/UCB-Projects/xxxx.git   - where xxxx is the directory and the git project that you created
 git branch -M main
 git push -u origin main
 ```
